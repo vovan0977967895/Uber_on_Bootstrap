@@ -39,7 +39,7 @@ nav{
    font-size: 15px;
    font-weight: 300;
    letter-spacing: 0px;
-   text-align: center;   
+   text-align: center;     
 }
 .menu__link:hover{
    text-decoration: underline;
@@ -108,6 +108,7 @@ nav{
    text-align: center;
    text-transform: uppercase;
    margin: 20px 0px;
+   
 }
 .subheader__btn:hover{
    background: linear-gradient(
@@ -162,8 +163,102 @@ nav{
    letter-spacing: 0px;
    text-align: center;
    text-transform: uppercase;
+   
 }
 .promo__btn:hover{
    background: linear-gradient(
-   to top , #2283a0 0%,#319bb8 100%);
+   to top , #2283a0 0%,#319bb8 100%);   
+}
+.advantages{
+   padding-bottom: 64px;
+}
+.advantages__round-1,
+.advantages__round-2,
+.advantages__round-3,
+.advantages__round-4,
+.advantages__round-5,
+.advantages__round-6,
+.advantages__round-7,
+.advantages__round-8 {
+   /* Эллипс */
+   width: 116px;
+   height: 116px;
+   background-color: #1EACC7;
+   border-radius: 50%;
+   padding: 27px 20px 23px 16px;
+   margin-top: 15px;
+   margin-right: 25px;
+}
+.advantages__round-2{
+   padding: 26px 26px 19px 26px ;
+}
+.advantages__round-3{
+   padding: 31px 15px ;
+}
+.advantages__round-4{
+   padding: 20px 19px 22px 18px;
+}
+.advantages__round-5{
+   padding: 20px 29px 18px 33px;
+}
+.advantages__round-6{
+   padding: 25px 27px 24px 26px;
+}
+.advantages__round-7{
+   padding: 22px 15px 28px 16px;
+}
+.advantages__round-8{
+   padding: 24px 24px 24px 19px;
+}
+.col-md-6{
+   display: flex;
+   margin-top: 25px;
+}
+.advantages__text-card , .advantages__text-card-rigth{   
+   max-width: 370px;
+   font-family: Roboto;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 21px;
+   letter-spacing: 0px;
+   text-align: left;
+   
+}
+.advantages__text-card-rigth{
+   max-width: 340px;
+}
+.advantages__subtitle{
+   color: #1EACC7;
+   font-size: 17px;
+   font-weight: 400;
+}
+.advantages__btn{
+   display: block;
+   margin: 0 auto;
+   margin-top: 20px;
+   min-width: 113px;
+   height: 24px;
+   color: rgb(255, 255, 255);
+   font-size: 11px;
+   font-weight: 400;
+   letter-spacing: 0px;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #212121;
+   border-radius: 2px;
+}
+.advantages__btn:hover{
+   background-color: #3e3d3d;
+
+}
+.advantages__title{
+   color: rgb(34, 34, 34);
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: 0px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 33px;
+
 }
