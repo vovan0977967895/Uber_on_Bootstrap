@@ -395,4 +395,44 @@ nav {
 }
 .mobile__item--plus:hover {
   background: rgb(32, 31, 31);
+}
+
+.selection {
+  padding: 59px 0px 110px 0px;
+  min-height: 890px;
+  background: url("../images/dark-bg.jpeg") top center no-repeat, url("../images/selection-bg.png") bottom center no-repeat;
+}
+.selection .label {
+  color: #212121;
+  background-color: rgb(255, 255, 255);
+}
+.selection .label:hover {
+  background-color: rgb(177, 169, 169);
+}
+.selection__title {
+  color: rgb(255, 255, 255);
+}
+.selection__subtitle {
+  color: rgb(255, 255, 255);
+}
+.selection__promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+.selection__promo--img {
+  margin: 0 auto;
+}
+.selection__slogan {
+  text-align: center;
+  max-width: 327px;
+  color: rgb(34, 34, 34);
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
