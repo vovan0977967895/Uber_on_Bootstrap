@@ -91,6 +91,8 @@ nav {
   font-weight: 300;
   letter-spacing: 0px;
   text-align: center;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .menu__link:hover {
@@ -169,6 +171,8 @@ nav {
   text-align: center;
   text-transform: uppercase;
   margin: 20px 0px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .subheader__btn:hover {
@@ -230,6 +234,8 @@ nav {
   letter-spacing: 0px;
   text-align: center;
   text-transform: uppercase;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .promo__btn:hover {
@@ -308,6 +314,8 @@ nav {
   text-transform: uppercase;
   background-color: #212121;
   border-radius: 2px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 .label:hover {
   background-color: #3e3d3d;
@@ -388,15 +396,47 @@ nav {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin: 0 auto;
-  padding: 6px;
   bottom: 35px;
   cursor: pointer;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.mobile__item--plus::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1EACC7;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: 0.3S all;
+  transition: 0.3S all;
+}
+.mobile__item--plus::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1EACC7;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3S all;
+  transition: 0.3S all;
 }
 .mobile__item--plus img {
   width: 100%;
 }
 .mobile__item--plus:hover {
   background: rgb(32, 31, 31);
+}
+.mobile__item--plus:hover::after, .mobile__item--plus:hover::before {
+  background-color: #c74595;
 }
 
 .selection {
@@ -407,6 +447,8 @@ nav {
 .selection .label {
   color: #212121;
   background-color: rgb(255, 255, 255);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 .selection .label:hover {
   background-color: rgb(177, 169, 169);

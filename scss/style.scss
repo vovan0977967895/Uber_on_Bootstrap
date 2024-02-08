@@ -43,6 +43,7 @@ nav{
    font-weight: 300;
    letter-spacing: 0px;
    text-align: center;     
+   transition:  0.5s all;
 }
 .menu__link:hover{
    text-decoration: underline;
@@ -111,6 +112,7 @@ nav{
    text-align: center;
    text-transform: uppercase;
    margin: 20px 0px;
+   transition:  0.5s all;
    
 }
 .subheader__btn:hover{
@@ -166,11 +168,12 @@ nav{
    letter-spacing: 0px;
    text-align: center;
    text-transform: uppercase;
+   transition:  0.5s all;  
    
 }
 .promo__btn:hover{
    background: linear-gradient(
-   to top , #2283a0 0%,#319bb8 100%);   
+   to top , #2283a0 0%,#319bb8 100%);
 }
 .advantages{
    padding-top: 20px;
@@ -230,6 +233,7 @@ nav{
    text-transform: uppercase;
    background-color: #212121;
    border-radius: 2px;
+   transition:  0.5s all;
    &:hover{
       background-color: #3e3d3d;
 }
@@ -306,14 +310,41 @@ nav{
          left: 50%;
          transform: translateX(-50%);
          margin: 0 auto;
-         padding: 6px;
          bottom: 35px;
          cursor: pointer;
+         transition:  0.5s all;
+         &::before{
+            content: '';
+            display: block;
+            width: 14px;
+            height: 2px;
+            background-color: #1EACC7;
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translateY(-50%);
+            transition: 0.3S all;
+         }
+         &::after{
+            content: '';
+            display: block;
+            width: 2px;
+            height: 14px;
+            background-color: #1EACC7;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            transform: translateX(-50%);
+            transition: 0.3S all;
+         }
          img{
             width: 100%;
          }
          &:hover{
             background: rgb(32, 31, 31);
+            &::after, &::before{
+               background-color: #c74595;
+            }
          }
          
       }     
@@ -326,9 +357,9 @@ nav{
    .label{
       color:  #212121;     
       background-color: rgb(255, 255, 255);
+      transition:  0.5s all;
       &:hover{
          background-color: rgb(177, 169, 169);
-
       }
    }
    &__title{
