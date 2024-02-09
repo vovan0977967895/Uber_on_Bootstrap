@@ -226,7 +226,8 @@ nav{
    max-width: 113px;
    height: 24px;
    color: rgb(255, 255, 255);
-   font-size: 15px;
+   font-size: 11px;
+   padding: 3px 1px;
    font-weight: 400;
    letter-spacing: 0px;
    text-align: center;
@@ -332,7 +333,7 @@ nav{
             height: 14px;
             background-color: #1EACC7;
             position: absolute;
-            left: 50%;
+            left: 49%;
             top: 25%;
             transform: translateX(-50%);
             transition: 0.3S all;
@@ -388,4 +389,7 @@ nav{
       margin: 0 auto;
    }
 
+}
+.require{
+   padding: 60px 0px 90px 0px;
 }
