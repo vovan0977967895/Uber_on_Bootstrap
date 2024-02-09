@@ -392,4 +392,88 @@ nav{
 }
 .require{
    padding: 60px 0px 90px 0px;
+   &__block{
+      margin: 33px 0px;
+      &--nmb{
+         margin-bottom: 0px;
+      }
+   }
+   &__subtitle{
+      color: rgb(28, 168, 195);
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 22px;
+   }
+   &__subtitle--red{
+      color: #FF5656;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 22px;
+   }
+   &__list--red{
+      list-style-type: none;
+      padding-left: 50px;
+      li{
+         color: rgb(34, 34, 34);
+         font-size: 17px;
+         font-weight: 300;
+         line-height: 24px;
+         letter-spacing: 0px;
+         text-align: left;
+         margin-top: 10px;
+         &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 20px;
+            margin-left: -30px;
+            margin-top: 2px;
+            background: url('../images/icon/check-red.png');
+         }
+      }
+   }
+   &__list{
+      list-style-type: none;
+      padding-left: 50px;      
+      li{
+         color: rgb(34, 34, 34);
+         font-size: 17px;
+         font-weight: 300;
+         line-height: 24px;
+         letter-spacing: 0px;
+         text-align: left;
+         margin-top: 10px;
+         &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 20px;
+            margin-left: -30px;
+            margin-top: 2px;
+            background: url('../images/icon/check-blue.png');
+         }
+      }
+   }
+   &__descr{
+      color: rgb(28, 168, 195);
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-top: 25px;
+   }
+   .warning{
+      &__subtitle{
+         color: #FF5656;
+      }
+   }
 }
