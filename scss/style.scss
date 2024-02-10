@@ -470,10 +470,92 @@ nav{
       letter-spacing: 0px;
       text-align: left;
       margin-top: 25px;
-   }
-   .warning{
-      &__subtitle{
-         color: #FF5656;
+   }   
+}
+.find-world{
+   min-height: 720px;
+   background: url('../images/Group-world-bg.jpeg') center center/cover no-repeat;
+   padding: 48px 0px 22px 0px;
+   .label{
+      color:  #212121;     
+      background-color: rgb(255, 255, 255);
+      transition:  0.5s all;
+      &:hover{
+         background-color: rgb(177, 169, 169);
       }
+   }
+   &__title{
+      color: rgb(255, 255, 255);
+   }
+   &__subtitle{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin-top: 5px;
+   }
+   &__link{
+      color: rgb(31, 186, 214);
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 68px;
+      letter-spacing: 0px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 450px;
+   }
+}
+.footer{
+   min-height: 135px;
+   padding: 13px 10px 27px 10px;
+   &__line{
+      display: block;
+      margin: 0 auto;
+      border-top: 7px solid ;
+      width: 301px;
+      color: #1FBAD6;
+      margin-bottom: 20px;
+   }
+   
+   &__wrapper{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__menu{
+      margin-left: 130px;
+   }
+   &__social{
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
+   }
+   &__menu--title{
+      display: flex;
+      column-gap: 26px;
+      justify-content: space-around;
+      .title__link {
+         &:hover {
+            text-decoration: underline;
+         }
+
+      }
+   }
+   &__menu--subtitle{
+      display: flex;
+      column-gap: 16px;
+      margin-top: 10px;
+      .subtitle__link{
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+   &__apps{
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
+   }
+   &__language{
+      text-align: center;
+     color: #1FBAD6;
+     margin-top: 10px;
    }
 }
