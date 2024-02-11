@@ -520,27 +520,36 @@ nav{
       justify-content: space-between;
    }
    &__menu{
-      margin-left: 130px;
+      width: 33%;
    }
    &__social{
       display: flex;
+      width: 33%;
+      align-items: center;
+      column-gap: 6px;
+   }
+   &__apps{
+      width: 33%;
+      display: flex;
+      justify-content: flex-end;
       align-items: center;
       column-gap: 6px;
    }
    &__menu--title{
       display: flex;
       column-gap: 26px;
-      justify-content: space-around;
+      justify-content:center;
       .title__link {
          &:hover {
             text-decoration: underline;
          }
-
       }
    }
    &__menu--subtitle{
       display: flex;
-      column-gap: 16px;
+      column-gap: 10px;
+      justify-content:center;
+
       margin-top: 10px;
       .subtitle__link{
          &:hover {
@@ -548,11 +557,7 @@ nav{
          }
       }
    }
-   &__apps{
-      display: flex;
-      align-items: center;
-      column-gap: 6px;
-   }
+   
    &__language{
       text-align: center;
      color: #1FBAD6;
