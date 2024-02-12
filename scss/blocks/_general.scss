@@ -265,7 +265,7 @@ nav{
    }
    &__item{
       position: relative;
-      width: 320px;
+      max-width: 320px;
       height: 280px;
       margin: 0 auto;
       margin-bottom: 19px;
@@ -544,8 +544,13 @@ nav{
    }
    &__menu--subtitle{
       display: flex;
+      color: rgb(153, 153, 153);
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-transform: uppercase;
       column-gap: 10px;
-      justify-content:center;
+      justify-content:space-between;
 
       margin-top: 10px;
       .subtitle__link{
