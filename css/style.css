@@ -681,4 +681,20 @@ nav {
   text-align: center;
   color: #1FBAD6;
   margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .menu__item {
+    border-right: none;
+    padding-right: 10px;
+  }
+  .menu__link {
+    font-size: 12px;
+  }
+  .promo__header {
+    font-size: 48px;
+  }
+  .promo__subheader {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
