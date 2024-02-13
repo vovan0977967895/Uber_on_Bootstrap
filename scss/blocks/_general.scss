@@ -10,10 +10,8 @@ html{
    font-family: 'Roboto', sans-serif;
 }
 header{
-   position: fixed;
    position: relative;
    height: 53px;
-   background: #212121;
    
 
 }
@@ -24,34 +22,19 @@ a{
 }
 
 nav{
-   position: relative;
    position: fixed;
    width: 100%;
    z-index: 5;
    top: 0px;
    height: 53px;
    background: #212121;
-   .hamburger{
-      display: none;
-      position: absolute;
-     left: 20px;
-      top: 20px;
-      transform: translateY(-50%);
-      width: 20px;
-      span{
-         display: block;
-         height: 2px;
-         width: 100%;
-         background-color: #fff;
-         margin-top: 3px;
-      }
-   }
+   
 }
 .menu{
-   padding: 15px 70px;
    display: flex;
    justify-content: space-between;
    list-style-type: none;
+   padding: 15px 70px;
    margin: 0 ;
 }
 .menu__link{
