@@ -11,6 +11,10 @@ html{
 }
 header{
    position: relative;
+   height: 53px;
+   background: #212121;
+   
+
 }
 
 a{
@@ -19,13 +23,28 @@ a{
 }
 
 nav{
+   position: relative;
    position: fixed;
    width: 100%;
    z-index: 5;
    top: 0px;
-   min-height: 53px;
+   height: 53px;
    background: #212121;
-   
+   .hamburger{
+      display: none;
+      position: absolute;
+     left: 20px;
+      top: 20px;
+      transform: translateY(-50%);
+      width: 20px;
+      span{
+         display: block;
+         height: 2px;
+         width: 100%;
+         background-color: #fff;
+         margin-top: 3px;
+      }
+   }
 }
 .menu{
    padding: 15px 70px;
@@ -53,11 +72,12 @@ nav{
    border-right: none;
 }
 .subheader{
-   margin-top: 54px;
+   top: 53px;
    position: absolute;
    width: 100%;
    min-height: 87px;
    background: rgba(0,0,0, 0.6);
+   
 }
 .subheader__logo{
    display: block;
